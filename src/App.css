@@ -14,6 +14,25 @@
   min-height: 100vh;
   padding: 2rem;
 }
+.firstpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+.firstpage h1{
+  margin: 0;
+  font-size: 1.8rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.firstpage p{
+  font-size: 1.1rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
 
 .devotional {
   background: #ffffff;
@@ -40,6 +59,16 @@
   font-size: 1.8rem;
   color: #2c3e50;
   font-weight: 600;
+}
+
+.scripture-text button {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  color: #fff;
+  background-color: #34495e;
 }
 
 .scripture-text p {
