@@ -7,6 +7,13 @@ const DevotionalContent = ({
   devotionalText3,
   devotionalText4,
   devotionalText5,
+  devotionalText6,
+  devotionalText7,
+  devotionalText8,
+  devotionalText9,
+  devotionalText10,
+  devotionalText11,
+  devotionalText12,
   reflection,
   prayer,
   affirmation,
@@ -37,6 +44,41 @@ const DevotionalContent = ({
     {
       devotionalText5 && (
         <p>{devotionalText5}</p>
+      )
+    }
+    {
+      devotionalText6 && (
+        <p>{devotionalText6}</p>
+      )
+    }
+    {
+      devotionalText7 && (
+        <p>{devotionalText7}</p>
+      )
+    }
+    {
+      devotionalText8 && (
+        <p>{devotionalText8}</p>
+      )
+    }
+    {
+      devotionalText9 && (
+        <p>{devotionalText9}</p>
+      )
+    }
+    {
+      devotionalText10 && (
+        <p>{devotionalText10}</p>
+      )
+    }
+    {
+      devotionalText11 && (
+        <p>{devotionalText11}</p>
+      )
+    }
+    {
+      devotionalText12 && (
+        <p>{devotionalText12}</p>
       )
     }
 

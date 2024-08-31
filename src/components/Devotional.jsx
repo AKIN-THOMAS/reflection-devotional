@@ -57,7 +57,7 @@ const Devotional = () => {
       <Introduction
         title={"INTRODUCTION"}
         devotionalText={
-          "Praise God! The third edition of the Reflection devotional is here and I am most excited that you are a partaker of this prepared blessing from Abba. The Reflection Devotional was birthed two years ago as a significant gift to humanity for my birth month and God in his infinite mercy has granted us the grace for continuity. I want to use this opportunity to say a big thank you to my friends who have partnered with me this year to make this dream a reality again. This devotional was written by 30 individuals who wrote as inspired by the Holy Spirit for your spiritual edification throughout the month of September. We appreciate God for this success and we say, to Him alone be all the glory. It has been our utmost prayer that as you use this devotional daily, you will have a closer walk with God and it will impact the remaining days of this year. Therefore,  we are fully assured that God has answered our prayers and you will be greatly blessed by this devotional. You can also forward your testimonies to reflectiondailydevotional@gmail.com for proper recording of the acts of God. As you behold Him daily, may you reflect His glory and show forth His beauty. Amen. Your Friend,"
+          "Praise God! The third edition of the Reflection devotional is here and I am most excited that you are a partaker of this prepared blessing from Abba. The Reflection Devotional was birthed two years ago as a significant gift to humanity for my birth month and God in his infinite mercy has granted us the grace for continuity. I want to use this opportunity to say a big thank you to my friends who have partnered with me this year to make this dream a reality again. This devotional was written by 30 individuals who wrote as inspired by the Holy Spirit for your spiritual edification throughout the month of September. We appreciate God for this success and we say, to Him alone be all the glory. It has been our utmost prayer that as you use this devotional daily, you will have a closer walk with God and it will impact the remaining days of this year. Therefore,  we are fully assured that God has answered our prayers and you will be greatly blessed by this devotional. You can also forward your testimonies to reflectiondailydevotional@gmail.com for proper recording of the acts of God. As you behold Him daily, may you reflect His glory and show forth His beauty. Amen."
         }
         reference={"2 Corinthians 3:18 NLT"}
         text={
@@ -81,6 +81,13 @@ const Devotional = () => {
         devotionalText3={devotional.devotionalText3}
         devotionalText4={devotional.devotionalText4}
         devotionalText5={devotional.devotionalText5}
+        devotionalText6={devotional.devotionalText6}
+        devotionalText7={devotional.devotionalText7}
+        devotionalText8={devotional.devotionalText8}
+        devotionalText9={devotional.devotionalText9}
+        devotionalText10={devotional.devotionalText10}
+        devotionalText11={devotional.devotionalText11}
+        devotionalText12={devotional.devotionalText12}
         reflection={devotional.reflection}
         prayer={devotional.prayer}
         affirmation={devotional.affirmation}

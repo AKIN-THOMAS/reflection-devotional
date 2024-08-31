@@ -47,7 +47,7 @@ const Introduction = ({
               <div className="devotional-content">
                 <h2>{title}</h2>
                 <p>{devotionalText}</p>
-                <p className="author">Written by {author}</p>
+                <p className="author">Your friend</p>
               </div>
             </div>
           </DrawerBody>
