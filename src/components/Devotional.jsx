@@ -76,7 +76,11 @@ const Devotional = () => {
       )}
       <DevotionalContent
         title={devotional.title}
-        devotionalText={devotional.devotionalText}
+        devotionalText1={devotional.devotionalText1}
+        devotionalText2={devotional.devotionalText2}
+        devotionalText3={devotional.devotionalText3}
+        devotionalText4={devotional.devotionalText4}
+        devotionalText5={devotional.devotionalText5}
         reflection={devotional.reflection}
         prayer={devotional.prayer}
         affirmation={devotional.affirmation}

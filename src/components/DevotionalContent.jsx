@@ -2,7 +2,11 @@ import React from "react";
 
 const DevotionalContent = ({
   title,
-  devotionalText,
+  devotionalText1,
+  devotionalText2,
+  devotionalText3,
+  devotionalText4,
+  devotionalText5,
   reflection,
   prayer,
   affirmation,
@@ -10,7 +14,31 @@ const DevotionalContent = ({
 }) => (
   <div className="devotional-content">
     <h2>{title}</h2>
-    <p>{devotionalText}</p>
+    {
+      devotionalText1 && (
+        <p>{devotionalText1}</p>
+      )
+    }
+    {
+      devotionalText2 && (
+        <p>{devotionalText2}</p>
+      )
+    }
+    {
+      devotionalText3 && (
+        <p>{devotionalText3}</p>
+      )
+    }
+    {
+      devotionalText4 && (
+        <p>{devotionalText4}</p>
+      )
+    }
+    {
+      devotionalText5 && (
+        <p>{devotionalText5}</p>
+      )
+    }
 
     {reflection && (
       <>
